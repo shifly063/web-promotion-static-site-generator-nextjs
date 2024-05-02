@@ -3,13 +3,8 @@ import Navbar from "@/components/navbar";
 import Contacts from "@/components/Contacts";
 import Hero from "@/components/Hero";
 import Brands from "../components/Brands";
-import HowWorks from "@/components/HowWorks";
-import Stats from "@/components/Stats";
-import FeaturedProject from "@/components/FeaturedProject";
 import Services from "@/components/Services";
-import Testimonial from "@/components/Testimonial";
 import Project from "@/components/Project";
-import HomePage from "@/pages/home";
 
 import myData from "@/utils/dataWisata";
 
