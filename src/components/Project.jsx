@@ -35,7 +35,9 @@ export default function AllProject ({data}) {
                                         <a target="_blank" href='#'>
                                             <img className="object-cover w-full h-full transition-all duration-1000 transform hover:scale-110 "
                                                  src={item.image1}
-                                                 alt=""/>
+                                                 alt={item.tag}
+                                                 loading="lazy"
+                                                 />
                                         </a>
                                         <div className="p-2 lg:p-6">
                                         <span className="text-gray-400 text-xs lg:text-md">

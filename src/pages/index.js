@@ -39,7 +39,7 @@ export default function Home({ data }) {
         className="lg:pb-0 pb-10"
       >
         <Hero data={data} />
-        <Services />
+        <Services loading="lazy"/>
       </div>
       <Brands />
       <Project data={data}/>

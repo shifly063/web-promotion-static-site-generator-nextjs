@@ -23,6 +23,11 @@ const mydata = [
         "id": 5,
         "alt": "gambar gapura",
         "image": "https://i.pinimg.com/originals/15/d2/a4/15d2a4ab23b38d839e4a55b934a41e17.jpg",
+    },
+    {
+        "id": 6,
+        "alt": "gambar gapura",
+        "image": "https://i.pinimg.com/originals/9b/ac/7f/9bac7fc3ecbde1c90bcf8eac9309848d.jpg",
     }
 ]
 

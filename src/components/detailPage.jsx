@@ -48,7 +48,7 @@ export default function DetailPage({datas}) {
                   <div className="w-full text-center ">
                     <div className="mx-auto lg:mx-0">
                       <h2 className="mb-3 text-4xl lg:text-5xl font-bold font-heading grid">
-                        <span className="text-[#4F6F52]">
+                        <span className="text-white">
                           Selengkapnya tentang
                           {/* {data['title']} */}
                         </span>
@@ -96,33 +96,25 @@ export default function DetailPage({datas}) {
                 <div className="hidden lg:flex flex-wrap">
                   <img
                     className="w-full lg:w-1/2 lg:w-1/3 h-64 p-2 object-cover lg:rounded-xl rounded-br-none"
-                    src={
-                      "https://agency.teamrabbil.com/files/hub-01-18-projectmanagement-Hero-1200x900-software-tips.jpg"
-                    }
-                    alt=""
+                    src= {datas.map((datas) => datas.image1)}
+                    alt={datas.map((datas) => datas.tag)}
                   />
                   <img
                     className="w-full lg:w-1/2 lg:w-2/3 h-64 p-2 object-cover lg:rounded-xl rounded-bl-none"
-                    src={
-                      "https://agency.teamrabbil.com/files/hub-01-18-projectmanagement-Hero-1200x900-software-tips.jpg"
-                    }
-                    alt=""
+                    src= {datas.map((datas) => datas.image2)}
+                    alt={datas.map((datas) => datas.tag)}
                   />
                 </div>
                 <div className="flex flex-wrap ">
                   <img
                     className="w-full lg:w-1/2 lg:w-2/3 h-64 p-2 object-cover lg:rounded-xl rounded-br-none"
-                    src={
-                      "https://agency.teamrabbil.com/files/hub-01-18-projectmanagement-Hero-1200x900-software-tips.jpg"
-                    }
-                    alt=""
+                    src= {datas.map((datas) => datas.image3)}
+                    alt={datas.map((datas) => datas.tag)}
                   />
                   <img
                     className="w-full lg:w-1/2 lg:w-1/3 h-64 p-2 object-cover lg:rounded-xl rounded-bl-none"
-                    src={
-                      "https://agency.teamrabbil.com/files/hub-01-18-projectmanagement-Hero-1200x900-software-tips.jpg"
-                    }
-                    alt=""
+                    src= {datas.map((datas) => datas.image4)}
+                    alt={datas.map((datas) => datas.tag)}
                   />
                 </div>
               </div>

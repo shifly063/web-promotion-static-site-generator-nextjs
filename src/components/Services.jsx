@@ -10,16 +10,16 @@ import HeroImage from "@/assets/images/heroTop.webp";
 export default function Services() {
   // const data = await getAllServices();
   return (
-    <div className="w-[90%] py-0 lg:py-10 bg-slate-200 radius-for-skewed rounded-3xl lg:rounded-tl-full juftify-end text-end ml-auto">
+    <div className="w-full lg:w-[70%] py-0  bg-slate-300 radius-for-skewed rounded-3xl lg:rounded-tl-full juftify-end text-end ml-auto">
       {/* {data.map(item => ( */}
       <div className="container mx-auto px-4 py-0 lg:py-10">
         <div className="flex flex-wrap items-center">
-          <div className="w-full lg:w-1/2 flex text-left justify-start">
-            <div className="rounded-full bg-black mx-auto h-[300px] w-[300px]">
+          <div className="w-full lg:w-1/6 flex text-left justify-start">
+            {/* <div className="rounded-full bg-black mx-auto h-[300px] w-[300px]">
               <div className="absolute rounded-full bg-gray-600 mx-auto h-[200px] w-[200px]">
                 
               </div>
-            </div>
+            </div> */}
             {/* <div className="rounded-tr-full rounded-bl-full bg-black mx-auto h-[200px] w-[200px]">
               <div className="rounded-tr-full rounded-bl-full bg-gray-600 mx-auto h-[100px]">
                 .
@@ -44,29 +44,25 @@ export default function Services() {
                                     </div> */}
           </div>
 
-          <div className="mb-12 lg:mb-0 w-full lg:w-1/2 flex px-4">
-            <div className="max-w-md">
+          <div className="mb-12 lg:mb-0 w-full lg:w-5/6 flex px-4">
+            <div>
               <span className="text-green-600 text-2xl font-bold">
                 DESA WISATA
               </span>
               <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
                 Sendangduwur
               </h2>
-              <div className="mb-6 text-justify">
-                <span className="text-[#597E52] font-semibold">
+              {/* <div className="mb-6"> */}
+                <span className="text-[#597E52] font-light">
                   Desa Wisata Sendangduwur, yang terletak di Kecamatan Paciran,
                   Kabupaten Lamongan, telah diakui sebagai warisan budaya
                   nasional. Terkenal sebagai destinasi wisata religi, desa ini
                   dikenal karena makam Sunan Sendang yang menjadi tujuan ziarah
                   bagi pengunjung. Selain itu, Desa Sendangduwur juga menonjol
                   dengan beragam potensi UMKM, termasuk kerajinan batik tulis,
-                  perhiasan emas, dan bordir. Masyarakat Desa Sendangduwur masih
-                  sangat melestarikan budaya lokal, terlihat dari konsumsi
-                  makanan khas seperti Nasi Muduk yang menjadi hidangan
-                  sehari-hari, serta Nasi Langgi yang disajikan khusus saat
-                  peringatan Haul Sunan Sendang pada tanggal 15 Sya'ban.
+                  perhiasan emas, dan bordir.
                 </span>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

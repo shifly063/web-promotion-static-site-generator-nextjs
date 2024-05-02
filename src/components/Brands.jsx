@@ -38,7 +38,7 @@ function Brands () {
           </div>
           <div className="mb-2 lg:mb-0 w-full w-1/2 px-2 grid">
               <Image src={Point} className="mx-auto" height={50}/>
-              <span className="text-white text-3xl font-bold">61,303 km²</span>
+              <span className="text-white text-3xl font-bold">24,5 Ha</span>
               <span className="text-white lg:text-lg text-lg font-bold ">
                 Luas Desa
                 {/* <Statistic value={112893}  formatter={formatter}/> */}

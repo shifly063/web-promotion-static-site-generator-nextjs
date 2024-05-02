@@ -9,7 +9,7 @@ function Hero({ data }) {
   return (
     <div>
       <section className="bg-transparent pt-16">
-        <div className="relative pt-12 lg:pt-20 pb-0 lg:pb-20 z-1">
+        <div className="relative pt-12 lg:pt-20 pb-0 lg:pb-12 z-1">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0 flex items-center">
