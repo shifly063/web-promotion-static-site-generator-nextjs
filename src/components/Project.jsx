@@ -30,7 +30,7 @@ export default function AllProject ({data}) {
                         {
                             data.map((item,i)=>{
                                 return(
-                                    <div  className="w-full lg:w-1/3 mb-8 px-4">
+                                    <div key={i} className="w-full lg:w-1/3 mb-8 px-4">
                                         <div className="bg-white rounded-xl overflow-hidden shadow-2xl">
                                         <a target="_blank" href='#'>
                                             <img className="object-cover w-full h-full transition-all duration-1000 transform hover:scale-110 "

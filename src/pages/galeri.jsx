@@ -37,7 +37,7 @@ export default function Galeri ({data, datas}) {
                         {
                             data.map((item,i)=>{
                                 return(
-                                    <div  className="w-full lg:w-1/2 lg:w-1/4 mb-2 px-2">
+                                    <div key={i} className="w-full lg:w-1/2 lg:w-1/4 mb-2 px-2">
                                         <div className="bg-white rounded-xl overflow-hidden shadow-2xl">
                                         <a target="_blank" href={item.image}>
                                             <img className="object-cover w-full h-full transition-all duration-1000 transform hover:scale-110 "
