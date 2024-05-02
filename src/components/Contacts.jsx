@@ -24,22 +24,22 @@ const Contacts = () => {
             {/* Icon sosial media */}
             <div className="flex items-center">
               <Link href="#" className="mr-4 text-white hover:text-gray-400">
-                <Image src={whatsapp} height={30} />
+                <Image src={whatsapp} height={30} alt=""/>
               </Link>
               <Link
                 href="https://www.instagram.com/deswita_sendangduwur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 className="mr-4 text-white hover:text-gray-400"
               >
-                <Image src={instagram} height={30} />
+                <Image src={instagram} height={30} alt=""/>
               </Link>
               <Link href="#" className="mr-4 text-white hover:text-gray-400">
-                <Image src={email} height={30} />
+                <Image src={email} height={30} alt=""/>
               </Link>
               <Link
                 href="https://youtube.com/@sendangduwur_mesuwur?si=Y1XGTWs2hItMaZi7"
                 className="mr-4 text-white hover:text-gray-400"
               >
-                <Image src={youtube} height={30} />
+                <Image src={youtube} height={30} alt=""/>
               </Link>
             </div>
           </div>

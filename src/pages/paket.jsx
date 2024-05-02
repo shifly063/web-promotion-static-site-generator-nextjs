@@ -55,7 +55,7 @@ export default function Paket({ data, datas }) {
                               key={index}
                               className="flex text-green-600 hover:text-green-700 justify-center font-semibold gap-2 py-2"
                             >
-                              <Image src={checklist} height={20} width={20} />
+                              <Image src={checklist} height={20} width={20} alt=""/>
                               <span>{fasilitas}</span>
 
                             </span>

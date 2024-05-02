@@ -21,7 +21,7 @@ const Navbar = ({ data }) => {
     <nav className="bg-[#4F6F52] p-4 fixed w-full z-10 top-0">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Image src={logo} className="w-8 lg:w-12" loading="lazy"/>
+          <Image src={logo} className="w-8 lg:w-12" loading="lazy" alt=""/>
         </div>
         <div className="hidden lg:block">
           <div className="relative text-left">
