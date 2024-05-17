@@ -85,7 +85,7 @@ export default function DetailPage({datas}) {
               {/* <h2 className="hidden lg:grid mb-6 text-4xl lg:text-5xl font-bold font-heading">
               {datas.map((datas) => datas.tag)}
               </h2> */}
-              <div className="mb-6 max-w-sm text-justify">
+              <div className="mb-6 text-justify">
                 <span className="text-[#597E52] font-semibold ">
                   {datas.map((datas) => datas.des)}
                 </span>

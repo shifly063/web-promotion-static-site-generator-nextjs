@@ -40,9 +40,9 @@ export default function Testimonial () {
                                                         {/* {item['msg']} */}
                                                         itemsss
                                                     </p>
-                                                    <img className="mb-2 mx-auto w-12 h-12 rounded-full object-cover"
+                                                    {/* <img className="mb-2 mx-auto w-12 h-12 rounded-full object-cover"
                                                          src={'https://i.pinimg.com/originals/e4/eb/67/e4eb6701eda27280a6c6bc1ef8ef30e9.jpg'}
-                                                         alt=""/>
+                                                         alt=""/> */}
                                                     <h4 className="mb-1 text-2xl font-bold font-heading">
                                                         {/* {item['name']} */}
                                                         NAME

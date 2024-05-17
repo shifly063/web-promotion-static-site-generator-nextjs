@@ -21,7 +21,7 @@ function Brands () {
         </div>
         <div className="lg:flex grid lg:w-2/3 w-full">
           <div className="mb-2 lg:mb-0 w-full w-1/2 px-2 grid">
-              <Image src={People} className="mx-auto" height={50} alt=""/>
+              <Image src={People} className="mx-auto" height={50} alt="Icon People"/>
               <span className="text-white text-3xl font-bold">1994</span>
               <span className="text-white lg:text-lg text-lg font-bold ">
                 Jumlah Penduduk
@@ -29,7 +29,7 @@ function Brands () {
               {/* <Statistic value={112893} formatter={formatter}/> */}
           </div>
           <div className="mb-2 lg:mb-0 w-full w-1/2 px-2 grid">
-              <Image src={Tourist} className="mx-auto" height={50} alt=""/>
+              <Image src={Tourist} className="mx-auto" height={50} alt="Icon Tourist"/>
               <span className="text-white text-3xl font-bold">10000</span>
               <span className="text-white lg:text-lg text-lg font-bold ">
                 Jumlah Pengunjung Pertahun
@@ -37,7 +37,7 @@ function Brands () {
               </span>
           </div>
           <div className="mb-2 lg:mb-0 w-full w-1/2 px-2 grid">
-              <Image src={Point} className="mx-auto" height={50} alt=""/>
+              <Image src={Point} className="mx-auto" height={50} alt="Icon Location"/>
               <span className="text-white text-3xl font-bold">24,5 Ha</span>
               <span className="text-white lg:text-lg text-lg font-bold ">
                 Luas Desa

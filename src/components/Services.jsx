@@ -10,7 +10,7 @@ import HeroImage from "@/assets/images/heroTop.webp";
 export default function Services() {
   // const data = await getAllServices();
   return (
-    <div className="w-full lg:w-[70%] py-0  bg-slate-300 radius-for-skewed rounded-3xl lg:rounded-tl-full juftify-end text-end ml-auto">
+    <div className="w-full lg:w-[70%] py-0  bg-slate-300 radius-for-skewed rounded-3xl lg:rounded-tl-full lg:juftify-end lg:text-end juftify-center text-center ml-auto">
       {/* {data.map(item => ( */}
       <div className="container mx-auto px-4 py-0 lg:py-10">
         <div className="flex flex-wrap items-center">
@@ -49,9 +49,9 @@ export default function Services() {
               <span className="text-green-600 text-2xl font-bold">
                 DESA WISATA
               </span>
-              <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
+              <h1 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
                 Sendangduwur
-              </h2>
+              </h1>
               {/* <div className="mb-6"> */}
                 <span className="text-[#597E52] font-light">
                   Desa Wisata Sendangduwur, yang terletak di Kecamatan Paciran,

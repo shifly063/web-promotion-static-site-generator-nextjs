@@ -21,7 +21,7 @@ const Navbar = ({ data }) => {
     <nav className="bg-[#4F6F52] p-4 fixed w-full z-10 top-0">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Image src={logo} className="w-8 lg:w-12" loading="lazy" alt=""/>
+          <Image src={logo} className="w-8 lg:w-12" loading="lazy" alt="Logo SD"/>
         </div>
         <div className="hidden lg:block">
           <div className="relative text-left">
@@ -75,6 +75,11 @@ const Navbar = ({ data }) => {
                       </Link>
                     </li>
                   ))}
+                  <li className="bg-[#75A47F] rounded-xl">
+                    <Link href="/paket">
+                      <span className="block text-white hover:bg-white hover:text-gray-800 py-2 px-4">Paket Wisata</span>
+                    </Link>
+                  </li>
                   <li className="bg-[#75A47F] rounded-xl">
                     <Link href="/about">
                       <span className="block text-white hover:bg-white hover:text-gray-800 py-2 px-4">Tentang Kami</span>
