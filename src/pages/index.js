@@ -31,7 +31,7 @@ export default function Home({ data, news }) {
       <Head>
         <meta charset="UTF-8"/>
         <title>Desa Wisata Sendangduwur - Home</title>
-        <meta name="keywords" content="Desa Wisata Sendangduwur, Wisata Edukasi, Edukasi Batik, Pasar Tradisional, Wisata Religi, Makam Sunan Sendang, budaya, wisata alam, penginapan, kuliner tradisional, liburan keluarga" />
+        <meta name="keywords" content="Desa Wisata Sendangduwur, Wisata Edukasi, Edukasi Batik, Pasar Tradisional, Wisata Religi, Makam Sunan Sendang, Pasar Minggu Legi, Latar Cendhani, kuliner tradisional, Batik" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Jelajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
         <link rel="canonical" href="https://deswitasendangduwur.netlify.app/" />
