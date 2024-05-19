@@ -33,16 +33,16 @@ export default function Home({ data, news }) {
         <title>Desa Wisata Sendangduwur - Home</title>
         <meta name="keywords" content="Desa Wisata Sendangduwur, Wisata Edukasi, Edukasi Batik, Pasar Tradisional, Wisata Religi, Makam Sunan Sendang, Pasar Minggu Legi, Latar Cendhani, kuliner tradisional, Batik" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Jelajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
+        <meta name="description" content="Desa Sendangduwur adalah sebuah desa di Kecamatan Paciran, Kabupaten Lamongan, Jawa Timur yang terkenal dengan sektor wisatanya yang kaya akan sejarah dan budaya. Jelajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
         <link rel="canonical" href="https://deswitasendangduwur.netlify.app/" />
         <meta property="og:title" content="Desa Wisata Sendangduwur - Home" />
-        <meta property="og:description" content="Jelajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
+        <meta property="og:description" content="Desa Sendangduwur adalah sebuah desa di Kecamatan Paciran, Kabupaten Lamongan, Jawa Timur yang terkenal dengan sektor wisatanya yang kaya akan sejarah dan budaya. Jelajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://deswitasendangduwur.netlify.app/" />
         <meta property="og:image" content="https://i.pinimg.com/originals/43/d3/41/43d3415441a1b0fb44f36417ff47ff0c.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Desa Wisata Sendangduwur - Home" />
-        <meta name="twitter:description" content="elajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
+        <meta name="twitter:description" content="Desa Sendangduwur adalah sebuah desa di Kecamatan Paciran, Kabupaten Lamongan, Jawa Timur yang terkenal dengan sektor wisatanya yang kaya akan sejarah dan budaya. Jelajahi keindahan alam dan budaya Desa Wisata Sendangduwur. Nikmati kegiatan seru, kuliner tradisional, dan penginapan nyaman. Ideal untuk liburan keluarga, pasangan, dan petualang solo. Kunjungi Desa Wisata Sendangduwur dan rasakan pesonanya!." />
         <meta name="twitter:image" content="https://i.pinimg.com/originals/43/d3/41/43d3415441a1b0fb44f36417ff47ff0c.jpg" />
         <link rel="icon" href="/sdLogo.svg" />
       </Head>
